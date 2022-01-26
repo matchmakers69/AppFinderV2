@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SignInForm /> should create a snapshot for SignInForm 1`] = `
+<form
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <div>
+    <label>
+      Username
+      <input
+        aria-describedby="password-constraints"
+        aria-invalid={false}
+        autoComplete="username"
+        name="username"
+        onBlur={[Function]}
+        onChange={[Function]}
+        required={true}
+        type="text"
+      />
+    </label>
+  </div>
+  <div>
+    <label>
+      Password
+      <input
+        aria-describedby="password-constraints"
+        aria-invalid={false}
+        autoComplete="current-password"
+        name="password"
+        onBlur={[Function]}
+        onChange={[Function]}
+        required={true}
+        type="password"
+      />
+    </label>
+  </div>
+  <button
+    disabled={true}
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;
